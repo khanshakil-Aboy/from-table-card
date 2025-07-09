@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+         <nav>
+        <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="displayflex.html">Display</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <h2>Table</h2>
+        <table>
+            <caption>My Friends List</caption>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Roll</th>
+                </tr>
+
+            </thead>
+            <tbody class="first-td">
+                <tr>
+                    <td>1</td>
+                    <td>Rohomot</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tamim</td>
+                    <td>8</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Toton</td>
+                    <td>9</td>
+                    <td>78</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <td style="text-align: center;" colspan="4">My friends</td>
+
+            </tfoot>
+        </table>
+    </section>
+</body>
+</html>

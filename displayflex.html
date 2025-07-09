@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        .container{
+            display:flex;
+            gap: 30px;
+            justify-content: space-evenly;
+
+        }
+        .box{
+            border: 2px solid black;
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            font-size: 3em;
+        }
+        
+        .center{
+            background-color: black;
+            display: flex;
+            justify-content:center;
+            height: 500px;
+            align-items:center;
+
+        }
+        .user{
+            border: 2px solid blue;
+            /* height: 100px; */
+            /* width: 150px; */
+            background-color: aqua;
+
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="displayflex.html">Display</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+   <div class="center">
+        <div class="user">
+        <h2>Hellow Programing hero</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora repellendus beatae quibusdam sit quis, possimus iure dolores dolorem expedita cumque veniam nihil, optio eveniet enim eaque praesentium magni recusandae perferendis?</p>
+    </div>
+   </div>
+    
+    <div class="container">
+   
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    </div>
+   
+</body>
+</html>

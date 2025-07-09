@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First form</title>
+    <style>
+      form .besic label{
+        display: block;
+        margin: 12px;
+      }
+        
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+         <nav>
+        <ul>
+            <li><a href="index.html">Form</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="displayflex.html">Display</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <form>
+            <fieldset class="besic">
+                <legend>Biginer Form</legend>
+                <label for="name">Your Name</label>
+                <input type="text" name="" id="name">
+                <label for="email">Your email </label>
+                <input type="email" name="" id="email">
+
+            </fieldset>
+            <fieldset>
+                <legend>Chose only one</legend>
+                <input type="radio" name="mango" id="mango">
+                <label for="mango">Mango</label>
+                <input type="radio" name="mango" id="lichi">
+                <label for="lichi">Lichi</label>
+                <input type="radio" name="mango" id="apple">
+                <label for="apple">Apple</label>
+            </fieldset>
+            <fieldset>
+                <legend>Chose Multiple</legend>
+                <input type="checkbox" name="vegi" id="sosa">
+                <label for="sosa">Sosa</label>
+                <input type="checkbox" name="vegi" id="tomato">
+                <label for="tomato">Tomato</label>
+                <input type="checkbox" name="vegi" id="banana">
+                <label for="banana">Banana</label>
+            </fieldset>
+            <fieldset>
+                <legend> Textarea</legend>
+                <textarea cols="50" rows="5" placeholder="Type your comment" name="" id=""></textarea>
+                
+            </fieldset>
+            <input type="submit" value="Send Data"> 
+            <input type="reset" value="Clear All">
+
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
